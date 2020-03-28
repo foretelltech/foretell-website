@@ -26,6 +26,18 @@ const Description = styled.div`
 `
 
 const CTA = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  
+  margin-top: 30px;
+
+  width: 141px;
+  height: 50px;
+  border-radius: 4px;
+  background-color: #5eaf80;
+
   -webkit-touch-callout: none;
   -webkit-user-select: none;
   -khtml-user-select: none;
@@ -40,7 +52,6 @@ const CTA = styled.div`
 
 const Content = styled.div`
   margin-left: 100px;
-  margin-bottom: 200px;
 `
 
 const Screenshot = styled.div`
@@ -59,6 +70,9 @@ const ScrenshotSection = () => {
       <Description>
         Between 67% and 90% of a product’s post-warranty servicing, maintenance and parts replacement is performed outside its OEM’s distribution network. This entails that the vast majority of a $2 Trillion market space is unstructured and reactive in nature, with inefficiencies throughout the parts distribution channels, and service quality. Our aim is to structure this market through digital transformation and innovative business models at its core.
       </Description>
+      <CTA>
+        Know More
+      </CTA>
     </Content>
   </Wrapper>)
 } 

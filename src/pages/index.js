@@ -8,9 +8,9 @@ import ScrenshotSection from "../components/landing/ScreenshotSection"
 import Footer from "../components/common/Footer"
 
 const Background = styled.div`
-  margin-bottom:80px;
+  padding-bottom:80px;
   width: 100vw;
-  background-image: linear-gradient(to bottom, #262468, #070927);
+  background-image: linear-gradient(to top, #262468, #070927);
 `
 
 const Content = styled.div`
