@@ -50,8 +50,13 @@ const Clickable = styled.div`
 `
 
 const getPage = () => {
-  const arr = window.location.href.split('/')
-  return arr[arr.length-1]
+  if (typeof window !== 'undefined') {
+    const arr = window.location.href.split('/')
+    return arr[arr.length - 1]
+  }
+  else {
+    return ''
+  }
 }
 
 const NavigationBar = ({ hideLinks}) => {
