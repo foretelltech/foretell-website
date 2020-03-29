@@ -25,7 +25,7 @@ const AboutUs = () => {
     bcrypt.compare(password, '$2a$04$Z1jhtEnrfE9aEGi9PI.AvOSeqQZ4Ulh3zoCrY5DxazcsDZ6ktJ4sq', function (err, isValid) {
       if (!isValid){
         localStorage.setItem('redirectPage', 'aboutUs')
-        window.location.href = '/auth?page=aboutUs'
+        window.location = '/auth?page=aboutUs'
       }
       else
         setIsAuthorized(true)

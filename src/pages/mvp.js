@@ -23,7 +23,7 @@ const MVP = () => {
     bcrypt.compare(password, '$2a$04$Z1jhtEnrfE9aEGi9PI.AvOSeqQZ4Ulh3zoCrY5DxazcsDZ6ktJ4sq', function (err, isValid) {
       if (!isValid) {
         localStorage.setItem('redirectPage', 'mvp')
-        window.location.href = '/auth'
+        window.location = '/auth'
       }
       else
         setIsAuthorized(true)
