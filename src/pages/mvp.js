@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import styled from 'styled-components'
 import Layout from '../components/common/layout'
 import HeaderSection from '../components/mvp/headerSection'
@@ -7,6 +7,8 @@ import Cards from '../components/mvp/cards'
 import MaintenanceProviders from '../components/mvp/maintenanceProviders'
 import { Features1, Features2 } from '../components/mvp/features'
 import Footer from '../components/common/footer'
+import bcrypt from 'bcryptjs'
+
 
 const TopSection = styled.div`
   height: 1477px;
@@ -14,18 +16,31 @@ const TopSection = styled.div`
 `
 
 const MVP = () => {
+  const [isAuthorized, setIsAuthorized] = useState(false)
+
+  useEffect(()=>{
+    let password = localStorage.getItem('password') ? localStorage.getItem('password'): ''
+    bcrypt.compare(password, '$2a$04$Z1jhtEnrfE9aEGi9PI.AvOSeqQZ4Ulh3zoCrY5DxazcsDZ6ktJ4sq', function (err, isValid) {
+      if (!isValid) 
+        window.location = '/auth?page=mvp'
+      else
+        setIsAuthorized(true)
+    })
+  },[])
+
   return (<div>
-    <TopSection>
-      <Layout>
-        <HeaderSection/>
-        <Benefits/>
-        <Cards/>
-        <MaintenanceProviders/>
-        <Features1/>
-      </Layout>
-      <Features2/>
-      <Footer/>
-    </TopSection>
+    {isAuthorized &&
+      <TopSection>
+        <Layout>
+          <HeaderSection/>
+          <Benefits/>
+          <Cards/>
+          <MaintenanceProviders/>
+          <Features1/>
+        </Layout>
+        <Features2/>
+        <Footer/>
+      </TopSection>}
   </div>)
 } 
 

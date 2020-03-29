@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from "gatsby"
 import styled from 'styled-components'
 import logo from '../../assets/logo.svg'
 
@@ -61,9 +62,36 @@ const NavigationBar = ({ hideLinks}) => {
       </Clickable>
       {!hideLinks &&
         <Locations className='d-flex align-items-center justify-content-between'>
-          <Location isSelected={getPage() === ""}>Home</Location>
-          <Location isSelected={getPage() === "mvp"}> MP-MVP</Location>
-          <Location isSelected={getPage() === "aboutUs"}>About Us</Location>
+          <Location isSelected={getPage() === ""}>
+            <Link
+              to="/"
+              style={{
+                color: `white`,
+                textDecoration: `none`,
+              }}>
+            Home
+            </Link>
+          </Location>
+          <Location isSelected={getPage() === "mvp"}>
+            <Link
+              to="/mvp"
+              style={{
+                color: `white`,
+                textDecoration: `none`,
+              }}>
+             MP-MVP
+            </Link>
+          </Location>
+          <Location isSelected={getPage() === "aboutUs"}>
+            <Link
+              to="/aboutUs"
+              style={{
+                color: `white`,
+                textDecoration: `none`,
+              }}>
+            About Us
+            </Link>
+          </Location>
         </Locations>}
     </Container>
   </div>)
