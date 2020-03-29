@@ -5,6 +5,7 @@ import backgroundGraphics from '../assets/background.svg'
 import WhoAreWe from '../components/aboutUs/whoAreWe'
 import Footer from '../components/common/footer'
 import Foretellians from '../components/aboutUs/foretellians'
+import { Link } from 'gatsby'
 import bcrypt from 'bcryptjs'
 
 const Background = styled.div`

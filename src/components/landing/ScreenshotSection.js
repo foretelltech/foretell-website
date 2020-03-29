@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import { Link } from 'gatsby'
 import screenshotImg from '../../assets/screenshot.png'
 
 const Wrapper = styled.div`
@@ -71,8 +72,16 @@ const ScrenshotSection = () => {
       <Description>
         Between 67% and 90% of a product’s post-warranty servicing, maintenance and parts replacement is performed outside its OEM’s distribution network. This entails that the vast majority of a $2 Trillion market space is unstructured and reactive in nature, with inefficiencies throughout the parts distribution channels, and service quality. Our aim is to structure this market through digital transformation and innovative business models at its core.
       </Description>
+      
       <CTA>
-        Know More
+        <Link
+          to='/mvp'
+          style={{
+            color: `white`,
+            textDecoration: `none`,
+          }}>
+          Know More
+        </Link>
       </CTA>
     </Content>
   </Wrapper>)

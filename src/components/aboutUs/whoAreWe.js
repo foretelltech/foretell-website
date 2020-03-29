@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import { Link } from 'gatsby'
 import foretellIcon from '../../assets/foretell-icon.svg'
 
 const Header = styled.div`
@@ -64,7 +65,16 @@ const WhoAreWe = () => {
     <Content>
       <Header> Who we are? </Header>
       <Description> A multidisciplinary team of dedicated designers, scientists, researchers and engineers, whose core mission is to reshape the future of the technology that powers the world. </Description>
-      <CTA> Learn More </CTA>
+      <CTA> 
+        <Link
+          to='/mvp'
+          style={{
+            color: `white`,
+            textDecoration: `none`,
+          }}>
+          Learn More
+        </Link>
+      </CTA>
     </Content>
     <Img>
       <img src={foretellIcon} alt='' draggable={false} />
