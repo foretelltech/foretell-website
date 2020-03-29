@@ -73,16 +73,6 @@ const Button = styled.button`
   }
 `
 
-function getParameterByName(name, url) {
-  if (!url) url = window.location.href
-  name = name.replace(/[\[\]]/g, '\\$&')
-  var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
-    results = regex.exec(url)
-  if (!results) return null
-  if (!results[2]) return ''
-  return decodeURIComponent(results[2].replace(/\+/g, ' '))
-}
-
 const Auth = () => {
   const [password, setPassword] = useState("")
 
@@ -93,11 +83,10 @@ const Auth = () => {
   const verifyPassword = (evt) => {
     evt.stopPropagation()
     evt.preventDefault()
-    var urlParams = new URLSearchParams(window.location)
-    var redirectPage = getParameterByName('page')
     bcrypt.compare(password, '$2a$04$Z1jhtEnrfE9aEGi9PI.AvOSeqQZ4Ulh3zoCrY5DxazcsDZ6ktJ4sq', function (err, isValid) {
       if (isValid){
         localStorage.setItem('password', password)
+        const redirectPage = localStorage.getItem('redirectPage')
         window.location = `/${redirectPage}`
       }
       else{

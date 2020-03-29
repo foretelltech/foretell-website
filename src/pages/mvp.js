@@ -21,8 +21,10 @@ const MVP = () => {
   useEffect(()=>{
     let password = localStorage.getItem('password') ? localStorage.getItem('password'): ''
     bcrypt.compare(password, '$2a$04$Z1jhtEnrfE9aEGi9PI.AvOSeqQZ4Ulh3zoCrY5DxazcsDZ6ktJ4sq', function (err, isValid) {
-      if (!isValid) 
-        window.location = '/auth?page=mvp'
+      if (!isValid) {
+        localStorage.setItem('redirectPage', 'mvp')
+        window.location.href = '/auth'
+      }
       else
         setIsAuthorized(true)
     })
