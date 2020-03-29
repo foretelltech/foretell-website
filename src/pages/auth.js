@@ -49,7 +49,10 @@ const Input = styled.input`
   }
 `
 
-const Button = styled.div`
+const Button = styled.button`
+  outline: none !important;
+  border:none;
+  color: white;
   width: 141px;
   height: 50px;
   border-radius: 4px;
@@ -87,17 +90,18 @@ const Auth = () => {
     setPassword(evt.target.value)
   }
 
-  const verifyPassword = () => {
+  const verifyPassword = (evt) => {
+    evt.stopPropagation()
+    evt.preventDefault()
     var urlParams = new URLSearchParams(window.location)
     var redirectPage = getParameterByName('page')
-    console.log(urlParams)
     bcrypt.compare(password, '$2a$04$Z1jhtEnrfE9aEGi9PI.AvOSeqQZ4Ulh3zoCrY5DxazcsDZ6ktJ4sq', function (err, isValid) {
       if (isValid){
         localStorage.setItem('password', password)
         window.location = redirectPage
       }
       else{
-        alert("Invalid password")
+        alert('Invalid Password')
       }
     })
   }
@@ -110,8 +114,10 @@ const Auth = () => {
             <Header>
             Welcome to the era of decentralized data
             </Header>
-            <Input onChange={handleInput} placeholder="Please type the password" type="password"/>
-            <Button onClick={verifyPassword}> Access </Button>
+            <form onSubmit={verifyPassword} className='d-flex flex-column align-items-center justify-content-center'>
+              <Input onChange={handleInput} placeholder="Please type the password" type="password"/>
+              <Button onClick={verifyPassword}> Access </Button>
+            </form>
           </Content>
         </Layout>
       </BackgroundGraphics>

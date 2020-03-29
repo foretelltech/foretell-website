@@ -4,7 +4,7 @@ import AppContainer from './AppContainer'
 
 const Layout = ({children, hideLinks}) => {
   return (<AppContainer>
-    <NavigationBar hideLinks/>
+    <NavigationBar hideLinks={hideLinks}/>
     {children}
   </AppContainer>)
 } 
