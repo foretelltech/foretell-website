@@ -6,7 +6,7 @@ const Header = styled.div`
   min-width: 510px;
   padding:0;
   margin:0;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Mont', sans-serif;
   font-weight: bold;
   line-height: 1.17;
   color: #ffffff;
@@ -14,7 +14,7 @@ const Header = styled.div`
 `
 
 const Message = styled.div`
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Mont', sans-serif;
   height: 158px;
   font-size: 16px;
   line-height: 1.88;

@@ -1,8 +1,26 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Mont:400,500,600,700&display=swap');
 body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
+}
+
+@font-face {
+  font-family: 'Mont';
+  src: URL('/fonts/Mont/Mont-Light.ttf') format('truetype');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Mont';
+  src: URL('/fonts/Mont/Mont-Regular.ttf') format('truetype');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Mont';
+  src: URL('/fonts/Mont/Mont-SemiBold.ttf') format('truetype');
+  font-weight: 600;
 }
 
 ::-webkit-scrollbar {

@@ -39,12 +39,14 @@ const Input = styled.input`
   justify-content: center;
   text-align: center;
   outline: none;
-  opacity: 0.5;
   font-size: 18px;
   line-height: 1.67;
   text-align: center;
   color: #ffffff;
   margin-bottom: 51px;
+  ::placeholder {
+    color: #A1A1B2;
+  }
 `
 
 const Button = styled.div`

@@ -4,7 +4,7 @@ import styled from 'styled-components'
 const Wrapper = styled.div`
   width:100vw;
   color:white;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Mont', sans-serif;
 `
 
 const Container = styled.div`

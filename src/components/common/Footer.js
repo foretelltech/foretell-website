@@ -66,8 +66,8 @@ const Footer = () => {
         <AppContainer>
           <Container className='d-flex justify-content-between'>
             <Section>
-              <Clickable>
-                <img className='mt-3' src={logoImg} alt='logo'/>
+              <Clickable onClick={() => { window.location = '/' }}>
+                <img draggable={false} className='mt-3' src={logoImg} alt='logo'/>
               </Clickable>
             </Section>
             <Section>
@@ -91,7 +91,7 @@ const Footer = () => {
             <Section>
               <Title> With the Support of </Title>
               <Content>
-                <img src={googleImg} alt='img'/>
+                <img draggable={false} src={googleImg} alt='img'/>
               </Content>
             </Section>
           </Container>

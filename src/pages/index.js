@@ -9,7 +9,7 @@ import Footer from "../components/common/Footer"
 import Spinner from "../components/common/Spinner"
 
 const Background = styled.div`
-  padding-bottom:80px;
+  padding-bottom:150px;
   width: 100vw;
   background-image: linear-gradient(to top, #262468, #070927);
 `

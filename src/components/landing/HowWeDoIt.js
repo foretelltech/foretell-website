@@ -29,7 +29,7 @@ const data = [
 ]
 
 const SectionHeader = styled.div`
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Mont', sans-serif;
   font-size: 38px;
   font-weight: bold;
   line-height: 1.29;
@@ -39,12 +39,11 @@ const SectionHeader = styled.div`
 
 const Header = styled.div`
   width: 209px;
-  height: 90px;
   font-size: 20px;
   font-weight: bold;
   line-height: 1.5;
   color: #ffffff;
-  margin-bottom:10px;
+  margin-bottom: 25px;
 `
 
 const Description = styled.div`
@@ -77,9 +76,15 @@ const CardWrapper = styled.div`
   }
 `
 
+const Img = styled.div`
+  margin-bottom: 25px;
+`
+
 const Card = ({img, header, description}) => {
   return (<CardWrapper >
-    <img src={img} alt='img'/>
+    <Img>
+      <img src={img} alt='img'/>
+    </Img>
     <Header>
       {header}
     </Header>

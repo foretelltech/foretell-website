@@ -51,8 +51,8 @@ const Clickable = styled.div`
 const NavigationBar = ({ hideLinks}) => {
   return (<div className='position-relative w-100'>
     <Container className='d-flex align-items-center justify-content-between'>
-      <Clickable>
-        <img src={logo} alt='logo'/>
+      <Clickable onClick={() => { window.location="/" }}>
+        <img draggable={false} src={logo} alt='logo'/>
       </Clickable>
       {!hideLinks &&
         <Locations className='d-flex align-items-center justify-content-between'>
