@@ -1,26 +1,26 @@
 import React from 'react'
 import styled from 'styled-components'
-import computerImg from '../../assets/computer-copy.svg'
-import predictiveChartImg from '../../assets/predictive-chart.svg'
-import intersectionImg from '../../assets/intersection.svg'
-import cloudComputingImg from '../../assets/cloud-computing.svg'
+import searchImg from '../../assets/search-1.svg'
+import mlImg from '../../assets/machine-learning.svg'
+import t3dImg from '../../assets/3-d.svg'
+import cloudImg from '../../assets/cloud.svg'
 
 const data = [
   {
-    img: computerImg,
-    header: 'Innovative data-driven market incentive',
+    img: searchImg,
+    header: 'Centralized search across products and brands',
   },
   {
-    img: predictiveChartImg,
-    header: 'Advance Predictive Systems',
+    img: mlImg,
+    header: 'Intituive and learning-prone product navigation',
   },
   {
-    img: computerImg,
-    header: 'Seamless Integration',
+    img: t3dImg,
+    header: 'Advanced Visualization',
   },
   {
-    img: computerImg,
-    header: 'Cloud Based Applications',
+    img: cloudImg,
+    header: 'Data driven decision making support',
   },
 ]
 
@@ -35,7 +35,7 @@ const SectionHeader = styled.div`
 
 const Header = styled.div`
   width: 209px;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: bold;
   line-height: 1.5;
   color: #ffffff;
@@ -72,7 +72,7 @@ const CardWrapper = styled.div`
 
 const Img = styled.div`
   margin-top: 50px;
-  margin-bottom: 30px;
+  margin-bottom: 35px;
 `
 
 const Card = ({img, header, description}) => {

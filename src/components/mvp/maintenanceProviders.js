@@ -1,38 +1,42 @@
 import React from 'react'
 import styled from 'styled-components'
 import computerImg from '../../assets/computer-copy.svg'
-import predictiveChartImg from '../../assets/predictive-chart.svg'
-import intersectionImg from '../../assets/intersection.svg'
-import cloudComputingImg from '../../assets/cloud-computing.svg'
+import basicAttributesImg from '../../assets/basic-attrributes.svg'
+import partstTableImg from '../../assets/parts-table.svg'
+import partsVisualizationImg from '../../assets/parts-visualization.svg'
+import maintenanceHistoryImg from '../../assets/maintenance-history.svg'
+import remainingUsefulLifeImg from '../../assets/remaining-useful-life.svg'
+import partsLikelyToFailImg from '../../assets/parts-likely-to-fail.svg'
+import commonRepairsImg from '../../assets/common-repairs.svg'
 
 const data = [
   {
-    img: computerImg,
+    img: basicAttributesImg,
     title: 'Basic Attributes',
   },
   {
-    img: predictiveChartImg,
+    img: partstTableImg,
     title: 'Parts Table',
   },
   {
-    img: computerImg,
+    img: partsVisualizationImg,
     title: 'Parts Visualization',
   },
   {
-    img: computerImg,
+    img: maintenanceHistoryImg,
     title: 'Maintenance History',
   },
   {
-    img: computerImg,
-    title: 'Maintenance History',
+    img: remainingUsefulLifeImg,
+    title: 'Remanining Useful Life',
   },
   {
-    img: computerImg,
-    title: 'Maintenance History',
+    img: partsLikelyToFailImg,
+    title: 'Parts Likely to Fail',
   },
   {
-    img: computerImg,
-    title: 'Maintenance History',
+    img: commonRepairsImg,
+    title: 'Common Repairs',
   },
 ]
 
@@ -63,11 +67,12 @@ const Header = styled.div`
 `
 
 const Title = styled.div`
-  width: 80px;
+  width: ${props => {return props.title === 'Parts Table'? '50px': '120px'}};
   font-size: 16px;
   font-weight: bold;
   line-height: 1.4;
   text-align: center;
+  text-justify: center;
   color: #050824;
 `
 
@@ -76,7 +81,6 @@ const Icon = styled.div`
   align-items: center;
   justify-content: center;
   text-align: center;
-  background-color: gray ;
 `
 
 const Provider = ({ title, img, isLast }) => {
@@ -84,7 +88,7 @@ const Provider = ({ title, img, isLast }) => {
     <Icon>
       <img src={img} alt='' draggable={false}/>
     </Icon>
-    <Title> {title} </Title>
+    <Title title={title}> {title} </Title>
   </Container>)
 }
 
