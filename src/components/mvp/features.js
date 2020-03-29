@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
-import screenshotImg from '../../assets/screenshot.jpg'
+import screenshotImg from '../../assets/screenshot.png'
+import AppContainer from '../common/appContainer'
 
 const data = [
   {
@@ -51,12 +52,40 @@ const Feature = ({index, img, header, description}) => {
   </Container>)
 }
 
-const Features = () => {
+const Section = styled.div`
+  background-color: #f4f6fa;
+`
+
+const SectionHeader = styled.div`
+  width: 566px;
+  height: 110px;
+  font-size: 46px;
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: center;
+  color: #050824;
+  margin-top: 63px;
+  margin-bottom: 100px;
+`
+
+export const Features2 = () => {
+  return (<Section>
+    <AppContainer>
+      <div className='w-100 d-flex align-items-center justify-content-center'>
+        <SectionHeader>Data driven decision making support</SectionHeader>
+      </div>
+      {data.map((item, index) => (<div key={index}>
+        <Feature index={index+1} {...item} />
+      </div>))}
+    </AppContainer>
+  </Section>)
+}
+
+
+export const Features1 = () => {
   return (<div>
     {data.map((item, index) => (<div key={index}>
       <Feature index={index} {...item} />
     </div>))}
   </div>)
 } 
-
-export default Features
