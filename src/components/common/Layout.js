@@ -1,6 +1,6 @@
 import React from 'react'
-import NavigationBar from './NavigationBar'
-import AppContainer from './AppContainer'
+import NavigationBar from './navigationBar'
+import AppContainer from './appContainer'
 
 const Layout = ({children, hideLinks}) => {
   return (<AppContainer>

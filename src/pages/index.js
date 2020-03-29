@@ -1,12 +1,12 @@
 import React, { useState } from "react"
 import styled from 'styled-components'
-import HeaderSection from '../components/landing/HeaderSection'
-import Layout from "../components/common/Layout"
-import DescriptionSection from "../components/landing/DescriptionSection"
-import HowWeDoIt from "../components/landing/HowWeDoIt"
-import ScrenshotSection from "../components/landing/ScreenshotSection"
-import Footer from "../components/common/Footer"
-import Spinner from "../components/common/Spinner"
+import HeaderSection from '../components/landing/headerSection'
+import Layout from "../components/common/layout"
+import DescriptionSection from "../components/landing/descriptionSection"
+import HowWeDoIt from "../components/landing/howWeDoIt"
+import ScrenshotSection from "../components/landing/screenshotSection"
+import Footer from "../components/common/footer"
+import Spinner from "../components/common/spinner"
 
 const Background = styled.div`
   padding-bottom:150px;

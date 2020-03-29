@@ -48,6 +48,11 @@ const Clickable = styled.div`
   }
 `
 
+const getPage = () => {
+  const arr = window.location.href.split('/')
+  return arr[arr.length-1]
+}
+
 const NavigationBar = ({ hideLinks}) => {
   return (<div className='position-relative w-100'>
     <Container className='d-flex align-items-center justify-content-between'>
@@ -56,9 +61,9 @@ const NavigationBar = ({ hideLinks}) => {
       </Clickable>
       {!hideLinks &&
         <Locations className='d-flex align-items-center justify-content-between'>
-          <Location isSelected={true}>Home</Location>
-          <Location>MP-MVP</Location>
-          <Location>About Us</Location>
+          <Location isSelected={getPage() === ""}>Home</Location>
+          <Location isSelected={getPage() === "mvp"}> MP-MVP</Location>
+          <Location isSelected={getPage() === "aboutUs"}>About Us</Location>
         </Locations>}
     </Container>
   </div>)

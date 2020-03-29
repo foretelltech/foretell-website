@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import Layout from "../components/common/Layout"
+import Layout from "../components/common/layout"
 import backgroundGraphics from '../assets/background.svg'
 import styled from 'styled-components'
 import bcrypt from 'bcryptjs'

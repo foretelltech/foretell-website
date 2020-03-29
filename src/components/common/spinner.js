@@ -1,5 +1,5 @@
-import React, { Component } from "react";
-import styled from "styled-components";
+import React, { Component } from "react"
+import styled from "styled-components"
 
 const Wrapper = styled.div`
   opacity:0.3;
@@ -8,7 +8,7 @@ const Wrapper = styled.div`
   align-items: center;
   justify-content: center;
   text-align: center;
-`;
+`
 
 const Bounce = styled.div`
    width: 12px;
@@ -35,22 +35,22 @@ const Bounce = styled.div`
   display: inline-block;
   -webkit-animation: sk-bouncedelay 1.4s infinite ease-in-out both;
   animation: sk-bouncedelay 1.4s infinite ease-in-out both;
-`;
+`
 
 const Bounce1 = styled(Bounce)`
   -webkit-animation-delay: -0.32s;
   animation-delay: -0.32s;
-`;
+`
 
 const Bounce2 = styled(Bounce)`
   -webkit-animation-delay: -0.16s;
   animation-delay: -0.16s;
-`;
+`
 
 const SpinnerContainer = styled.div`
   width: 70px;
   text-align: center;
-`;
+`
 
 class Spinner extends Component {
   render() {
@@ -60,9 +60,9 @@ class Spinner extends Component {
         <Bounce2 />
         <Bounce />
       </SpinnerContainer>
-    </Wrapper>);
+    </Wrapper>)
   }
 }
 
-export default Spinner;
+export default Spinner
  

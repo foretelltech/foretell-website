@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import AppContainer from './AppContainer'
+import AppContainer from './appContainer'
 import logoImg from '../../assets/logo.svg'
 import googleImg from '../../assets/google-cloud-white.png'
 
