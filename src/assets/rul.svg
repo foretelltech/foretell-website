@@ -1,0 +1,131 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="493" height="429" viewBox="0 0 493 429">
+    <defs>
+        <filter id="prefix__a" width="171.4%" height="175.3%" x="-35.7%" y="-24%" filterUnits="objectBoundingBox">
+            <feOffset dy="10" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="7.5"/>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.0901960784 0 0 0 0 0.345098039 0 0 0 0 0.57254902 0 0 0 0.103392701 0"/>
+        </filter>
+        <filter id="prefix__c" width="198.2%" height="203.8%" x="-49.1%" y="-33%" filterUnits="objectBoundingBox">
+            <feOffset dy="10" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="7.5"/>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.0901960784 0 0 0 0 0.345098039 0 0 0 0 0.57254902 0 0 0 0.103392701 0"/>
+        </filter>
+        <filter id="prefix__e" width="227.9%" height="244.7%" x="-64%" y="-46.1%" filterUnits="objectBoundingBox">
+            <feOffset dy="10" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="7.5"/>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.0901960784 0 0 0 0 0.345098039 0 0 0 0 0.57254902 0 0 0 0.103392701 0"/>
+        </filter>
+        <filter id="prefix__g" width="126.8%" height="113.8%" x="-13.4%" y="-4.4%" filterUnits="objectBoundingBox">
+            <feOffset dy="10" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="7.5"/>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.0901960784 0 0 0 0 0.345098039 0 0 0 0 0.57254902 0 0 0 0.103392701 0"/>
+        </filter>
+        <filter id="prefix__m" width="198.2%" height="203.8%" x="-49.1%" y="-33%" filterUnits="objectBoundingBox">
+            <feOffset dy="10" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="7.5"/>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.0901960784 0 0 0 0 0.345098039 0 0 0 0 0.57254902 0 0 0 0.103392701 0"/>
+        </filter>
+        <rect id="prefix__b" width="77" height="73" x="0" y="0" rx="6"/>
+        <rect id="prefix__d" width="56" height="53" x="0" y="0" rx="6"/>
+        <rect id="prefix__f" width="43" height="38" x="7" y="0" rx="6"/>
+        <rect id="prefix__h" width="205" height="399" x="0" y="0" rx="6"/>
+        <rect id="prefix__n" width="56" height="53" x="0" y="0" rx="6"/>
+        <path id="prefix__i" d="M15.485.135C6.975.135.083 7.16.083 15.812c0 8.654 6.892 15.677 15.402 15.677 8.525 0 15.432-7.023 15.432-15.677C30.917 7.16 24.01.135 15.485.135zm6.536 25.083L15.5 21.221l-6.521 3.997 1.726-7.54-5.75-5.064 7.585-.658 2.96-7.118 2.96 7.102 7.585.658-5.75 5.064 1.726 7.556z"/>
+        <path id="prefix__k" d="M7 .358C3.32.358.333 3.4.333 7.148c0 3.747 2.987 6.789 6.667 6.789 3.68 0 6.667-3.042 6.667-6.79C13.667 3.4 10.68.357 7 .357zm.667 10.184H6.333V6.468h1.334v4.074zm0-5.432H6.333V3.753h1.334V5.11z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g transform="translate(15 5) translate(37 210)">
+            <use fill="#000" filter="url(#prefix__a)" xlink:href="#prefix__b"/>
+            <rect width="76" height="72" x=".5" y=".5" fill="#FFF" stroke="#1F78B4" stroke-linejoin="square" stroke-opacity=".427" rx="6"/>
+            <text fill="#738D59" font-family="Helvetica" font-size="28">
+                <tspan x="21.376" y="42">5K</tspan>
+            </text>
+            <text fill="#212121" font-family="Helvetica" font-size="10">
+                <tspan x="17.604" y="56">Hours left</tspan>
+            </text>
+        </g>
+        <g transform="translate(15 5) translate(0 110)">
+            <use fill="#000" filter="url(#prefix__c)" xlink:href="#prefix__d"/>
+            <rect width="55" height="52" x=".5" y=".5" fill="#FFF" stroke="#1F78B4" stroke-linejoin="square" stroke-opacity=".427" rx="6"/>
+            <text fill="#738D59" font-family="Helvetica" font-size="22">
+                <tspan x="15.045" y="27">7K</tspan>
+            </text>
+            <text fill="#212121" font-family="Helvetica" font-size="8">
+                <tspan x="10.883" y="38">Hours left</tspan>
+            </text>
+        </g>
+        <g transform="translate(15 5) translate(385 52)">
+            <use fill="#000" filter="url(#prefix__e)" xlink:href="#prefix__f"/>
+            <rect width="42" height="37" x="7.5" y=".5" fill="#FFF" stroke="#1F78B4" stroke-linejoin="square" stroke-opacity=".427" rx="6"/>
+            <text fill="#738D59" font-family="Helvetica" font-size="18">
+                <tspan x="16.992" y="21">7K</tspan>
+            </text>
+            <text fill="#212121" font-family="Helvetica" font-size="6">
+                <tspan x="15.162" y="29">Hours left</tspan>
+            </text>
+        </g>
+        <g transform="translate(15 5) translate(155)">
+            <use fill="#000" filter="url(#prefix__g)" xlink:href="#prefix__h"/>
+            <rect width="204" height="398" x=".5" y=".5" fill="#FFF" stroke="#1F78B4" stroke-linejoin="square" stroke-opacity=".427" rx="6"/>
+            <g transform="translate(87 383)">
+                <path fill="#FFF" d="M3 6H25V29H3z"/>
+                <mask id="prefix__j" fill="#fff">
+                    <use xlink:href="#prefix__i"/>
+                </mask>
+                <g mask="url(#prefix__j)">
+                    <path fill="#1F78B4" d="M0 0H37V37.624H0z" transform="translate(-3 -3)"/>
+                </g>
+            </g>
+            <text fill="#1F78B4" font-family="Helvetica" font-size="14">
+                <tspan x="27.021" y="33">Most Reliable Prediction</tspan>
+            </text>
+            <text fill="#212121" font-family="Helvetica" font-size="16">
+                <tspan x="37.527" y="243">Foretell Prediction</tspan>
+            </text>
+            <g>
+                <g transform="translate(33 338) translate(124 .055)">
+                    <mask id="prefix__l" fill="#fff">
+                        <use xlink:href="#prefix__k"/>
+                    </mask>
+                    <g mask="url(#prefix__l)">
+                        <path fill="#1F78B4" d="M0 0H16V16.294H0z" transform="translate(-1 -1)"/>
+                    </g>
+                </g>
+                <text fill="#0191FF" font-family="Helvetica" font-size="12" text-decoration="underline" transform="translate(33 338)">
+                    <tspan x="0" y="11.175">Interval of Confidence</tspan>
+                </text>
+            </g>
+            <text fill="#000" fill-opacity=".6" font-family="Helvetica" font-size="10" letter-spacing=".179">
+                <tspan x="26.276" y="291">AI-based estimation derived from </tspan> <tspan x="39.031" y="303">on-board sensors and parts </tspan> <tspan x="57.173" y="315">replacement history</tspan>
+            </text>
+            <g>
+                <g transform="translate(31 56) translate(.22)">
+                    <ellipse cx="71" cy="72.53" rx="71" ry="72.53"/>
+                    <path stroke="#175892" stroke-width="18" d="M6.5 71.03c-.596 26.785 14.74 51.274 38.796 61.949 24.056 10.674 52.044 5.409 70.8-13.32 18.755-18.728 24.545-47.192 14.647-72.004-9.9-24.811-33.516-41.031-59.744-41.031"/>
+                    <path stroke="#99B979" stroke-width="18" d="M71.324 6.624c-35.244 0-64.038 28.532-64.84 64.25"/>
+                </g>
+                <text fill="#738D59" font-family="Helvetica" font-size="34" transform="translate(31 56)">
+                    <tspan x="49.426" y="76">5K</tspan>
+                </text>
+                <text fill="#212121" font-family="Helvetica" font-size="12" transform="translate(31 56)">
+                    <tspan x="44.544" y="95">Hours left</tspan>
+                </text>
+            </g>
+        </g>
+        <g transform="translate(15 5) translate(407 184)">
+            <use fill="#000" filter="url(#prefix__m)" xlink:href="#prefix__n"/>
+            <rect width="55" height="52" x=".5" y=".5" fill="#FFF" stroke="#1F78B4" stroke-linejoin="square" stroke-opacity=".427" rx="6"/>
+            <text fill="#738D59" font-family="Helvetica" font-size="22">
+                <tspan x="15.045" y="27">7K</tspan>
+            </text>
+            <text fill="#212121" font-family="Helvetica" font-size="8">
+                <tspan x="10.883" y="38">Hours left</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

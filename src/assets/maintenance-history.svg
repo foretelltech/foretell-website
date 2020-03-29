@@ -1,7 +1,114 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="30" height="41" viewBox="0 0 30 41">
-    <g fill="#050824">
-        <path d="M8.684 25.737c-.436 0-.79.354-.79.79 0 .435.354.789.79.789.436 0 .79-.354.79-.79 0-.435-.354-.79-.79-.79z"/>
-        <path d="M27.632 3.158h-8.764C18.501 1.358 16.906 0 15 0s-3.501 1.358-3.868 3.158H2.368C1.062 3.158 0 4.22 0 5.526v32.527c0 1.306 1.062 2.368 2.368 2.368h25.264c1.306 0 2.368-1.062 2.368-2.368V5.526c0-1.306-1.062-2.368-2.368-2.368zM9.474 4.737h2.368c.436 0 .79-.354.79-.79 0-1.306 1.062-2.368 2.368-2.368 1.306 0 2.368 1.062 2.368 2.368 0 .436.354.79.79.79h2.368v1.579H9.474v-1.58zm15.79 3.158v27.79H4.736V7.894h20.526zm3.157 30.158c0 .435-.354.79-.79.79H2.369c-.435 0-.79-.355-.79-.79V5.526c0-.435.355-.79.79-.79h5.527v1.58H3.947c-.436 0-.79.353-.79.79v29.368c0 .436.354.79.79.79h22.106c.436 0 .79-.354.79-.79V7.105c0-.436-.354-.79-.79-.79h-3.948V4.738h5.527c.435 0 .79.354.79.79v32.526z"/>
-        <path d="M21.316 30.474H8.684c-.436 0-.79.353-.79.79 0 .435.354.789.79.789h12.632c.436 0 .79-.354.79-.79 0-.436-.354-.79-.79-.79zM21.316 25.737h-9.474c-.436 0-.79.353-.79.79 0 .435.354.789.79.789h9.474c.436 0 .79-.354.79-.79 0-.436-.354-.79-.79-.79zM15 11.526c-3.047 0-5.526 2.48-5.526 5.527s2.479 5.526 5.526 5.526c3.047 0 5.526-2.48 5.526-5.526 0-3.048-2.479-5.527-5.526-5.527zM15 21c-2.177 0-3.947-1.77-3.947-3.947s1.77-3.948 3.947-3.948 3.947 1.771 3.947 3.948C18.947 19.229 17.177 21 15 21z"/>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="490" height="446" viewBox="0 0 490 446">
+    <defs>
+        <rect id="prefix__c" width="4" height="40" x="0" y="0" rx="2"/>
+        <rect id="prefix__f" width="338" height="110" x="0" y="223" rx="6"/>
+        <filter id="prefix__e" width="116.3%" height="150%" x="-8.1%" y="-15.9%" filterUnits="objectBoundingBox">
+            <feOffset dy="10" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="7.5"/>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.0901960784 0 0 0 0 0.345098039 0 0 0 0 0.57254902 0 0 0 0.103392701 0"/>
+        </filter>
+        <path id="prefix__a" d="M6 0.667L5.06 1.607 8.78 5.333 0.667 5.333 0.667 6.667 8.78 6.667 5.06 10.393 6 11.333 11.333 6z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd" transform="translate(15)">
+        <g>
+            <g>
+                <text fill="#1F78B4" font-family="Helvetica" font-size="16" letter-spacing=".15" transform="translate(19) translate(0 2)">
+                    <tspan x="129" y="18">Preventive Maintenance</tspan>
+                </text>
+                <text fill="#1F78B4" font-family="Helvetica" font-size="16" letter-spacing=".15" transform="translate(19) translate(0 2)">
+                    <tspan x="129" y="134">Coil Spring</tspan>
+                </text>
+                <text fill="#1F78B4" font-family="Helvetica" font-size="16" letter-spacing=".15" transform="translate(19) translate(0 2)">
+                    <tspan x="129" y="367">Corrective Maintenance</tspan>
+                </text>
+                <text fill="#000" fill-opacity=".6" font-family="Helvetica" font-size="10" letter-spacing=".179" transform="translate(19) translate(0 2)">
+                    <tspan x="129" y="45">Reached hours of use </tspan>
+                </text>
+                <text fill="#000" fill-opacity=".6" font-family="Helvetica" font-size="10" letter-spacing=".179" transform="translate(19) translate(0 2)">
+                    <tspan x="129" y="157">Reached hours of use </tspan>
+                </text>
+                <text fill="#000" fill-opacity=".6" font-family="Helvetica" font-size="10" letter-spacing=".179" transform="translate(19) translate(0 2)">
+                    <tspan x="129" y="394">Reached hours of use </tspan>
+                </text>
+                <text fill="#000" fill-opacity=".6" font-family="Helvetica" font-size="10" letter-spacing=".179" transform="translate(19) translate(0 2)">
+                    <tspan x="129" y="65">No damage</tspan>
+                </text>
+                <text fill="#000" fill-opacity=".6" font-family="Helvetica" font-size="10" letter-spacing=".179" transform="translate(19) translate(0 2)">
+                    <tspan x="129" y="86">PREVENTIVE MAINTENANCE</tspan>
+                </text>
+                <text fill="#000" fill-opacity=".6" font-family="Helvetica" font-size="10" letter-spacing=".179" transform="translate(19) translate(0 2)">
+                    <tspan x="129" y="197">CORRECTIVE MAINTENANCE</tspan>
+                </text>
+                <text fill="#000" fill-opacity=".6" font-family="Helvetica" font-size="10" letter-spacing=".179" transform="translate(19) translate(0 2)">
+                    <tspan x="129" y="437">Corrective Maintenance</tspan>
+                </text>
+                <text fill="#000" fill-opacity=".6" font-family="Helvetica" font-size="10" letter-spacing=".179" transform="translate(19) translate(0 2)">
+                    <tspan x="129" y="177">No damage</tspan>
+                </text>
+                <text fill="#000" fill-opacity=".6" font-family="Helvetica" font-size="10" letter-spacing=".179" transform="translate(19) translate(0 2)">
+                    <tspan x="129" y="414">No damage</tspan>
+                </text>
+                <text fill="#000" fill-opacity=".6" font-family="Helvetica" font-size="12" letter-spacing=".214" transform="translate(19) translate(0 2)">
+                    <tspan x="0" y="18">07/05/2019</tspan>
+                </text>
+                <text fill="#000" fill-opacity=".6" font-family="Helvetica" font-size="12" letter-spacing=".214" transform="translate(19) translate(0 2)">
+                    <tspan x="0" y="142">05/02/2019</tspan>
+                </text>
+                <text fill="#000" fill-opacity=".6" font-family="Helvetica" font-size="12" letter-spacing=".214" transform="translate(19) translate(0 2)">
+                    <tspan x="0" y="366">04/05/2018</tspan>
+                </text>
+                <g transform="translate(19) translate(0 2) translate(79)">
+                    <circle cx="13" cy="131" r="8" fill="#CFD8DC"/>
+                    <circle cx="13" cy="244" r="8" fill="#CFD8DC"/>
+                    <circle cx="13" cy="13" r="10" fill="#1F78B4"/>
+                    <circle cx="13" cy="13" r="14" stroke="#1F78B4" stroke-width="2"/>
+                    <path stroke="#CFD8DC" stroke-width="6" d="M13 34L13 136M13 136L13 238M13 238L13 340"/>
+                    <path stroke="#CFD8DC" stroke-linecap="round" stroke-width="6" d="M13 389L13 441"/>
+                </g>
+                <g transform="translate(19) translate(0 2) translate(315 10)">
+                    <mask id="prefix__b" fill="#fff">
+                        <use xlink:href="#prefix__a"/>
+                    </mask>
+                    <g mask="url(#prefix__b)">
+                        <path fill="#1F78B4" d="M0 0H16V16H0z" transform="translate(-2 -2)"/>
+                    </g>
+                </g>
+            </g>
+            <g transform="translate(19) translate(452)">
+                <mask id="prefix__d" fill="#fff">
+                    <use xlink:href="#prefix__c"/>
+                </mask>
+                <g fill="#ECEFF1" mask="url(#prefix__d)">
+                    <path d="M0 0H4V40H0z"/>
+                </g>
+            </g>
+        </g>
+        <use fill="#000" filter="url(#prefix__e)" xlink:href="#prefix__f"/>
+        <rect width="337" height="109" x=".5" y="223.5" fill="#FFF" stroke="#1F78B4" stroke-linejoin="square" stroke-opacity=".427" rx="6"/>
+        <text fill="#1F78B4" font-family="Helvetica" font-size="16" letter-spacing=".15">
+            <tspan x="148" y="248">Saddle Bearing</tspan>
+        </text>
+        <text fill="#000" fill-opacity=".6" font-family="Helvetica" font-size="10" letter-spacing=".179">
+            <tspan x="148" y="271">Reached hours of use </tspan>
+        </text>
+        <text fill="#000" fill-opacity=".6" font-family="Helvetica" font-size="10" letter-spacing=".179">
+            <tspan x="148" y="311">PREVENTIVE MAINTENANCE</tspan>
+        </text>
+        <text fill="#000" fill-opacity=".6" font-family="Helvetica" font-size="10" letter-spacing=".179">
+            <tspan x="148" y="291">No damage</tspan>
+        </text>
+        <text fill="#000" fill-opacity=".6" font-family="Helvetica" font-size="12" letter-spacing=".214">
+            <tspan x="19" y="272">04/05/2019</tspan>
+        </text>
+        <circle cx="111" cy="133" r="8" fill="#CFD8DC"/>
+        <circle cx="111" cy="366" r="12" fill="#CFD8DC"/>
+        <circle cx="111" cy="440" r="6" fill="#CFD8DC"/>
+        <path stroke="#CFD8DC" stroke-width="6" d="M111 138L111 398.871"/>
+        <path stroke="#1F78B4" stroke-width="6" d="M111 223L111 333"/>
+        <g transform="translate(98 260)">
+            <circle cx="13" cy="13" r="10" fill="#1F78B4"/>
+            <circle cx="13" cy="13" r="14" stroke="#1F78B4" stroke-width="2"/>
+        </g>
     </g>
 </svg>

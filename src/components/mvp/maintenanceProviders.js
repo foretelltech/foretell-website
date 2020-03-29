@@ -1,13 +1,13 @@
 import React from 'react'
 import styled from 'styled-components'
 import computerImg from '../../assets/computer-copy.svg'
-import basicAttributesImg from '../../assets/basic-attrributes.svg'
-import partstTableImg from '../../assets/parts-table.svg'
-import partsVisualizationImg from '../../assets/parts-visualization.svg'
-import maintenanceHistoryImg from '../../assets/maintenance-history.svg'
-import remainingUsefulLifeImg from '../../assets/remaining-useful-life.svg'
-import partsLikelyToFailImg from '../../assets/parts-likely-to-fail.svg'
-import commonRepairsImg from '../../assets/common-repairs.svg'
+import basicAttributesImg from '../../assets/maintenance-providers/basic-attrributes.svg'
+import partstTableImg from '../../assets/maintenance-providers/parts-table.svg'
+import partsVisualizationImg from '../../assets/maintenance-providers/parts-visualization.svg'
+import maintenanceHistoryImg from '../../assets/maintenance-providers/maintenance-history.svg'
+import remainingUsefulLifeImg from '../../assets/maintenance-providers/remaining-useful-life.svg'
+import partsLikelyToFailImg from '../../assets/maintenance-providers/parts-likely-to-fail.svg'
+import commonRepairsImg from '../../assets/maintenance-providers/common-repairs.svg'
 
 const data = [
   {
