@@ -48,17 +48,18 @@ const Clickable = styled.div`
   }
 `
 
-const NavigationBar = () => {
+const NavigationBar = ({ hideLinks}) => {
   return (<div className='position-relative w-100'>
     <Container className='d-flex align-items-center justify-content-between'>
       <Clickable>
         <img src={logo} alt='logo'/>
       </Clickable>
-      <Locations className='d-flex align-items-center justify-content-between'>
-        <Location isSelected={true}>Home</Location>
-        <Location>MP-MVP</Location>
-        <Location>About Us</Location>
-      </Locations>
+      {!hideLinks &&
+        <Locations className='d-flex align-items-center justify-content-between'>
+          <Location isSelected={true}>Home</Location>
+          <Location>MP-MVP</Location>
+          <Location>About Us</Location>
+        </Locations>}
     </Container>
   </div>)
 } 

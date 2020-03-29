@@ -2,9 +2,9 @@ import React from 'react'
 import NavigationBar from './NavigationBar'
 import AppContainer from './AppContainer'
 
-const Layout = ({children}) => {
+const Layout = ({children, hideLinks}) => {
   return (<AppContainer>
-    <NavigationBar/>
+    <NavigationBar hideLinks/>
     {children}
   </AppContainer>)
 } 

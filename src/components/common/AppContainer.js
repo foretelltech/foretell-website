@@ -9,6 +9,9 @@ const Wrapper = styled.div`
 
 const Container = styled.div`
   width: 100%;
+  top:0;
+  margin:0;
+  padding:0;
   max-width: 1200px;
 `
 
