@@ -5,6 +5,8 @@ import HeaderSection from '../components/mvp/headerSection'
 import Benefits from '../components/mvp/benefits'
 import Cards from '../components/mvp/cards'
 import MaintenanceProviders from '../components/mvp/maintenanceProviders'
+import Features from '../components/mvp/features'
+import Footer from '../components/common/footer'
 
 const TopSection = styled.div`
   height: 1477px;
@@ -19,7 +21,9 @@ const MVP = () => {
         <Benefits/>
         <Cards/>
         <MaintenanceProviders/>
+        <Features/>
       </Layout>
+      <Footer/>
     </TopSection>
   </div>)
 } 

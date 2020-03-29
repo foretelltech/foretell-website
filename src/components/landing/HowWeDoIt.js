@@ -17,12 +17,12 @@ const data = [
     description: 'Our applications are powered by state-of-the-art AI and physics-based hybrid predictive systems.'
   },
   {
-    img: computerImg,
+    img: intersectionImg,
     header: 'Seamless Integration',
     description: 'Interconnection throughout the value chain make value creation at the key levels possible.'
   },
   {
-    img: computerImg,
+    img: cloudComputingImg,
     header: 'Cloud Based Applications',
     description: 'Our user-facing applications and technical data sharing systems  are highly scalable and cloud-native.'
   },
