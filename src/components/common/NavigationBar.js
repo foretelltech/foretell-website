@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from "gatsby"
+import { Link } from 'gatsby'
 import styled from 'styled-components'
 import logo from '../../assets/logo.svg'
 
@@ -51,25 +51,32 @@ const Clickable = styled.div`
 
 const getPage = () => {
   if (typeof window !== 'undefined') {
-    const arr = window.location.href.split('/')
-    return arr[arr.length - 1]
+    let url = window.location.href
+    if(url[url.length-1] === '/')
+      url = url.substring(0, url.length-1)
+    const arr = url.split('/')
+    if(arr.length > 3)
+      return arr[arr.length - 1]
+    else
+      return 'home'
   }
   else {
-    return ''
+    return 'home'
   }
 }
 
 const NavigationBar = ({ hideLinks}) => {
   return (<div className='position-relative w-100'>
-    <Container className='d-flex align-items-center justify-content-between'>
-      <Clickable onClick={() => { window.location="/" }}>
+    <Container className='d-flex 
+    ign-items-center justify-content-between'>
+      <Clickable onClick={() => { window.location='/' }}>
         <img draggable={false} src={logo} alt='logo'/>
       </Clickable>
       {!hideLinks &&
         <Locations className='d-flex align-items-center justify-content-between'>
-          <Location isSelected={getPage() === ""}>
+          <Location isSelected={getPage() === 'home'}>
             <Link
-              to="/"
+              to='/'
               style={{
                 color: `white`,
                 textDecoration: `none`,
@@ -77,9 +84,9 @@ const NavigationBar = ({ hideLinks}) => {
             Home
             </Link>
           </Location>
-          <Location isSelected={getPage() === "mvp"}>
+          <Location isSelected={getPage() === 'mvp'}>
             <Link
-              to="/mvp"
+              to='/mvp'
               style={{
                 color: `white`,
                 textDecoration: `none`,
@@ -87,9 +94,9 @@ const NavigationBar = ({ hideLinks}) => {
              MP-MVP
             </Link>
           </Location>
-          <Location isSelected={getPage() === "aboutUs"}>
+          <Location isSelected={getPage() === 'aboutUs'}>
             <Link
-              to="/aboutUs"
+              to='/aboutUs'
               style={{
                 color: `white`,
                 textDecoration: `none`,

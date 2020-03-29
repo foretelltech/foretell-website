@@ -123,21 +123,20 @@ const Foretellian = ({profileImg, role, name}) => {
 
 
 const Foretellians = () => {
-  return (
-    <AppContainer >
-      <Wrapper className='d-flex flex-column align-items-center justify-content-center'>
-        <Icon>
-          <img src={planetImg} alt='' draggable={false} />
-        </Icon>
-        <Header>Meet the Foretellians</Header>
-        <Description>A multidisciplinary team of dedicated designers, scientists, researchers and engineers.</Description>
-        <div className='d-flex flex-wrap'>
-          {data.map((item, index) => (<div key={index}>
-            <Foretellian {...item} />
-          </div>))}
-        </div>
-      </Wrapper>
-    </AppContainer>
+  return ( <AppContainer >
+    <Wrapper className='d-flex flex-column align-items-center justify-content-center'>
+      <Icon>
+        <img src={planetImg} alt='' draggable={false} />
+      </Icon>
+      <Header>Meet the Foretellians</Header>
+      <Description>A multidisciplinary team of dedicated designers, scientists, researchers and engineers.</Description>
+      <div className='d-flex flex-wrap'>
+        {data.map((item, index) => (<div key={index}>
+          <Foretellian {...item} />
+        </div>))}
+      </div>
+    </Wrapper>
+  </AppContainer>
   )
 } 
 

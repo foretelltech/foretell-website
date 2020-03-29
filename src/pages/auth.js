@@ -98,7 +98,7 @@ const Auth = () => {
     bcrypt.compare(password, '$2a$04$Z1jhtEnrfE9aEGi9PI.AvOSeqQZ4Ulh3zoCrY5DxazcsDZ6ktJ4sq', function (err, isValid) {
       if (isValid){
         localStorage.setItem('password', password)
-        window.location = redirectPage
+        window.location = `/${redirectPage}`
       }
       else{
         alert('Invalid Password')

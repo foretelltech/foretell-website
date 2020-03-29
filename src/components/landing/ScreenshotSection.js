@@ -30,7 +30,8 @@ const CTA = styled.div`
   align-items: center;
   justify-content: center;
   text-align: center;
-  
+  color: white;
+
   margin-top: 30px;
 
   width: 141px;
