@@ -33,16 +33,16 @@ const Wrapper = styled.div`
 `
 
 const Clickable = styled.div`
-      -webkit-touch-callout: none;
-      -webkit-user-select: none;
-      -khtml-user-select: none;
-      -moz-user-select: none;
-      -ms-user-select: none;
-      user-select: none;
-      :hover {
-        cursor: pointer;
-        opacity: 0.7;
-      }
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  :hover {
+    cursor: pointer;
+    opacity: 0.7;
+  }
 `
 
 const Container = styled.div`
