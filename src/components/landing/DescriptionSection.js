@@ -23,7 +23,7 @@ const Message = styled.div`
 `
 
 const Wrapper = styled.div`
-  margin-top:158px;
+  margin-top:30px;
 `
 
 const DescriptionSection = () => {
